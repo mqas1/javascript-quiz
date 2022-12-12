@@ -8,6 +8,21 @@
     <title>JavaScript Quiz</title>
 </head>
 <body>
+    <header>
+        <a class="float-left" href="./assets/html/highscores.html">View High Scores</a>
+        <text class="float-right">Time: <span id="timer-count">0</span></text>
+    </header>
+    <main id="start-page">
+            <h2>Coding Quiz Challenge</h2>
+            <p>Try to answer the following code-related questions within the time limit.<br>
+            Keep in mind that incorrect answers will penalise your score / time by ten seconds!</p>
+            <button id="start">Start Quiz</button>
+    </main>
+    <div id="question-title"></div>
+    <div>
+        <ol id="answer-list"></ol>
+    <div>
+    <div id="msg" style="visibility:hidden"></div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

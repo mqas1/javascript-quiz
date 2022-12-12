@@ -1,0 +1,94 @@
+:root {
+    --hot-pink: #c72db0;
+    --deep-purple: #0a066c;
+    --white: #fff;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    padding: 1rem 2rem 3rem;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--hot-pink);
+}
+
+main {
+    padding: 2rem 7rem 1rem 12rem;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 32px;
+    padding-bottom: 1.5rem;
+}
+
+main p {
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+}
+
+button{
+    background-color: var(--deep-purple);
+    border-style: none;
+    color: var(--white);
+    font-size: 18px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+}
+
+button:hover,
+ol li:hover{
+    background-color: var(--hot-pink);
+    cursor:pointer;
+}
+
+ol {
+    margin: 0rem 8rem 1rem 11.5rem;
+}
+
+ol li {
+    background-color: var(--deep-purple);
+    margin: 0.5rem;
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    width: 175px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+#msg{
+    margin: 2rem 8rem 1rem 12rem;
+    border-top: solid grey 1px;
+    color: grey;
+    padding-top: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 2rem;
+    }
+}
