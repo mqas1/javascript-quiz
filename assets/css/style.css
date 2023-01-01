@@ -53,7 +53,7 @@ button{
 button:hover,
 ol li:hover{
     background-color: var(--hot-pink);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 ol {
@@ -77,7 +77,7 @@ ol li {
     float: right;
 }
 
-#msg{
+#msg {
     margin: 2rem 8rem 1rem 12rem;
     border-top: solid grey 1px;
     color: grey;
