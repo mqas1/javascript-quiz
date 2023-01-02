@@ -166,8 +166,9 @@ function quizComplete(){
             }
             
             storedScores.push(userScore);
+            storedScores.sort((a, b) => b.score - a.score);
             localStorage.setItem("scores", JSON.stringify(storedScores));
-            window.location.replace("./assets/html/highscores.html");
+            window.location.replace("./highscores.html");
         }
     });
 }
