@@ -8,7 +8,7 @@ As a student it can feel like quite the Sisyphean task.
 
 This application was created to aid students in their quest to learn JavaScript by preparing them for the coding assessments they will encounter as they apply for jobs. This application also aims to provide positive reinforcement as students prove to themselves – and the browser – their knowledge of JavaScript fundamentals. 
 
-[Deployed GitHub Page]()
+[Deployed GitHub Page](https://mqas1.github.io/javascript-quiz/)
 
 ![Screenshot of deployed application](/assets/images/screenshot.jpeg)
 
@@ -32,3 +32,4 @@ Application completed by Morgan Qasabian.
 - The "Start Quiz" button handles the event for starting the quiz timer and displaying the question and answers on the page.
 - Each answer choice handles the event for displaying the message whether the choice is correct or incorrect. If incorrect, the timer decrement by 10 seconds. Each choice will lead to the next question displaying until all questions have been answered.
 - A form is created through DOM manipulation to save the user's score with their initials to local storage. Once completed the window changes to the High Scores page.
+- The High Scores page displays all scores in descending order. There are two buttons, "Go Back" and "Clear Highscores". They respectively handle the events for going back to the landing page and clearing the scores from local storage.
