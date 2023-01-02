@@ -50,6 +50,8 @@ button{
     border-radius: 8px;
 }
 
+/* Adds the hover effect to buttons and the questions */
+/* by changing the cursor type and the colour. */
 button:hover,
 ol li:hover{
     background-color: var(--hot-pink);
@@ -79,6 +81,8 @@ ol li {
     float: right;
 }
 
+/* Adds styling to the div that will tell the user whether their choice
+was correct or not */
 #msg {
     margin: 2rem 8rem 1rem 12rem;
     border-top: solid grey 1px;
@@ -89,7 +93,9 @@ ol li {
     font-size: 18px;
 }
 
-#score-list{
+/* Adds different styling to the high scores list items compared to the
+question list items. */
+#score-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,6 +122,11 @@ ol li {
 
 .container {
     margin-top: 3.5rem;
+}
+
+#back-btn,
+#clear-btn {
+    margin: 0.5rem;    
 }
 
 @media screen and (max-width: 768px) {
